@@ -1,17 +1,13 @@
-body{
-  max-width: max-content;
+body {
   margin: auto;
   max-width: 600px;
-  background-image:url("../images/text_cleanup.PNG");
+  background-image: url("../images/text_cleanup.PNG");
   background-repeat: no-repeat;
   background-size: 100%;
-
-  height: fit-content;
- 
-  
+  height: fit-content; 
 }
 
-nav{
+nav {
   color: white;
   font-size: 18px;
   display:flex;
@@ -19,51 +15,52 @@ nav{
   flex-direction: row;
 }
 
-.menu{
+.menu {
   height: 50px;
 }
 
-header, article {
+header, 
+article {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-header{
+header {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   color: #7D73FC;
   font-size: 48px;
 }
 
-article{
+article {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   color: #EDECFF;
   font-size: 32px;
   margin-top: -40px;
 }
 
-.text{
+.text {
   height: fit-content;
   font-size: 18px;
   text-align: center;
   color: #C8C8D4;
 }
 
-.line{
+.line {
   display: block;
   margin-left:auto;
   margin-right:auto;
   width: 500px;
 }
 
-.line-1{
+.line-1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
 }
 
-.titles{
+.titles {
   color: #9490FF;
   display: flex;
   justify-content: space-around;
@@ -72,7 +69,7 @@ article{
 
 }
 
-.skills{
+.skills {
   color: #F5F5FF;
   display: flex;
   justify-content: space-around;
@@ -80,14 +77,13 @@ article{
   font-size: 18px;
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   margin-top: 30px;
 }
 
-.link{
+.link {
   height:30px;
 }
-

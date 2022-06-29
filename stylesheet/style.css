@@ -4,7 +4,7 @@ body {
   background-image: url("../images/text_cleanup.PNG");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: fit-content; 
+  height: fit-content;
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
   height: 50px;
 }
 
-header, 
+header,
 article {
   display: flex;
   justify-content: center;
@@ -28,13 +28,13 @@ article {
 
 header {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
-  color: #7D73FC;
+  color: #7c73fc;
   font-size: 48px;
 }
 
 article {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
-  color: #EDECFF;
+  color: #ecebff;
   font-size: 32px;
   margin-top: -40px;
 }
@@ -43,7 +43,7 @@ article {
   height: fit-content;
   font-size: 18px;
   text-align: center;
-  color: #C8C8D4;
+  color: #c9c9d4;
 }
 
 .line {
@@ -61,16 +61,15 @@ article {
 }
 
 .titles {
-  color: #9490FF;
+  color: #938fff;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   font-size: 16px;
-
 }
 
 .skills {
-  color: #F5F5FF;
+  color: #f5f5ff;
   display: flex;
   justify-content: space-around;
   flex-direction: row;

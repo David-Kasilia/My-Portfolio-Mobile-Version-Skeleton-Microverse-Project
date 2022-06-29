@@ -10,7 +10,7 @@ body {
 nav {
   color: white;
   font-size: 18px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
@@ -48,8 +48,8 @@ article {
 
 .line {
   display: block;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 500px;
 }
 
@@ -84,5 +84,5 @@ article {
 }
 
 .link {
-  height:30px;
+  height: 30px;
 }

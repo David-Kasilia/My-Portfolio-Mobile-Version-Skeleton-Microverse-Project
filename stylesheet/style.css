@@ -1,14 +1,19 @@
 body{
   max-width: max-content;
   margin: auto;
-  width: 600px;
-  background-color:#191765;
+  max-width: 600px;
+  background-image:url("../images/text_cleanup.PNG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  height: fit-content;
  
   
 }
 
 nav{
   color: white;
+  font-size: 18px;
   display:flex;
   justify-content: space-between;
   flex-direction: row;
@@ -19,16 +24,28 @@ nav{
 }
 
 header, article {
-    color: white;
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
+header{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    color: #7D73FC;
+    font-size: 48px;
+}
+
+article{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    color: #EDECFF;
+    font-size: 32px;
+    margin-top: -40px;
+}
 .text{
-    font-size: 14px;
+    height: fit-content;
+    font-size: 18px;
    text-align: center;
-color: white;
+color: #C8C8D4;
     }
 
 
@@ -37,7 +54,7 @@ color: white;
     display: block;
     margin-left:auto;
     margin-right:auto;
-    width: 550px;
+    width: 500px;
 }
 
 .line-1{
@@ -45,22 +62,24 @@ color: white;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 550px;
+width: 500px;
 }
 
 .titles{
-color: white;
+color: #9490FF;
     display: flex;
         justify-content: space-around;
         flex-direction: row;
+        font-size: 16px;
 
 }
 
 .skills{
-    color: white;
+    color: #F5F5FF;
     display: flex;
         justify-content: space-around;
         flex-direction: row;
+        font-size: 18px;
 }
 
 .contacts{

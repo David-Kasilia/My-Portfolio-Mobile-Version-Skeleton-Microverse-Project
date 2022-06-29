@@ -1,35 +1,76 @@
 body{
+  max-width: max-content;
+  margin: auto;
+  width: 600px;
+  background-color:#191765;
+ 
   
-  background-color:#A2A3AE;
 }
 
 nav{
+  color: white;
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: row;
 }
 
-header, article, .text{
+.menu{
+    height: 50px;
+}
+
+header, article {
+    color: white;
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
+.text{
+    font-size: 14px;
+   text-align: center;
+color: white;
+    }
+
+
 .line{
+    
     display: block;
     margin-left:auto;
     margin-right:auto;
-    width: 650px;
+    width: 550px;
+}
+
+.line-1{
+    
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 550px;
+}
+
+.titles{
+color: white;
+    display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+
 }
 
 .skills{
+    color: white;
     display: flex;
-    align-content: space-around;
-    flex-direction: column;
+        justify-content: space-around;
+        flex-direction: row;
 }
 
 .contacts{
-    display: flex;
-        justify-content: centre;
-        flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 30px;
 }
+
+.link{
+    height:30px;
+}
+

@@ -20,7 +20,7 @@ nav{
 }
 
 .menu{
-    height: 50px;
+  height: 50px;
 }
 
 header, article {
@@ -30,56 +30,54 @@ header, article {
 }
 
 header{
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
-    color: #7D73FC;
-    font-size: 48px;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  color: #7D73FC;
+  font-size: 48px;
 }
 
 article{
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
-    color: #EDECFF;
-    font-size: 32px;
-    margin-top: -40px;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  color: #EDECFF;
+  font-size: 32px;
+  margin-top: -40px;
 }
-.text{
-    height: fit-content;
-    font-size: 18px;
-   text-align: center;
-color: #C8C8D4;
-    }
 
+.text{
+  height: fit-content;
+  font-size: 18px;
+  text-align: center;
+  color: #C8C8D4;
+}
 
 .line{
-    
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 500px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 500px;
 }
 
 .line-1{
-    
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 .titles{
-color: #9490FF;
-    display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        font-size: 16px;
+  color: #9490FF;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 16px;
 
 }
 
 .skills{
-    color: #F5F5FF;
-    display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        font-size: 18px;
+  color: #F5F5FF;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 18px;
 }
 
 .contacts{
@@ -90,6 +88,6 @@ color: #9490FF;
 }
 
 .link{
-    height:30px;
+  height:30px;
 }
 
